@@ -1,0 +1,31 @@
+{
+  "name": "homepageramla",
+  "version": "1.0.0",
+  "description": "Página principal Ramla Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamlaSoftware/HomePageRamla.git"
+  },
+  "keywords": [
+    "Ramla",
+    "Software",
+    "ramla",
+    "software",
+    "desarrollo",
+    "diseño",
+    "web",
+    "móvil",
+    "aplicaciones",
+    "aplicación"
+  ],
+  "author": "Ramla Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RamlaSoftware/HomePageRamla/issues"
+  },
+  "homepage": "https://github.com/RamlaSoftware/HomePageRamla#readme"
+}
