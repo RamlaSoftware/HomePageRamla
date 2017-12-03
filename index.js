@@ -1,9 +1,9 @@
 const app = require('./app');
-const config = require('./config')
+const config = require('./config');
 
-
-app.listen(config.port , function (){
-    console.log(`Aplicación corriendo en htpp://localhost:${config.port}`)
-    console.log("Desarrollado por: Ramla Pro. Software");
-    console.log("Ramla Pro. Software 2017");
+app.listen(config.port, function(){
+  console.log(`Aplicación corriento en http://localhost:${config.port}`);
+  console.log(`Aplicación propiedad de ${config.owner}`);
+  console.log(`Desarrollado por ${config.developer}`);
+  console.log("Ramla Software 2018");
 });
