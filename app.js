@@ -1,4 +1,4 @@
-'use strict'
+'use stric'
 
 const express = require('express');
 const app = express();
