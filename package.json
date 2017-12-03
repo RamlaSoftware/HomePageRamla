@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RamlaSoftware/HomePageRamla.git/"
+    "url": "git+https://github.com/cfrancobedoya/CorporateProject.git"
   },
   "keywords": [
     "Ramla",
@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/cfrancobedoya/CorporateProject#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"

@@ -13,8 +13,33 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/personalStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
   </head>
-  <body>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ramla Software</a> <!-- LOGO -->
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#sobreNosotros">SOBRE NOSOTROS</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#portafolio">PORTAFOLIO</a></li>
+            <li><a href="#precios">PRECIOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- INICIO Y NOMBRE DE LA EMPRESA -->
     <div class="jumbotron text-center">
@@ -31,7 +56,7 @@
     </div>
 
     <!-- SOBRE NOSOTROS -->
-    <div class="container-fluid">
+    <div id="sobreNosotros" class="container-fluid">
       <div class="row">
         <div class="col-sm-8">
           <h2>Sobre nosotros</h2>
@@ -63,7 +88,7 @@
 
 
     <!-- SERVICIOS -->
-    <div class="container-fluid text-center">
+    <div id="servicios"class="container-fluid text-center">
       <h2>SERVICIOS</h2>
       <h4>Maximize su negocio</h4>
       <br>
@@ -106,7 +131,7 @@
 
 
     <!-- PORTAFOLIO -->
-    <div class="container-fluid text-center bg-grey">
+    <div id="portafolio"class="container-fluid text-center bg-grey">
       <h2>Portafolio</h2>
       <h4>Nuestros mejores proyectos</h4>
       <div class="row text-center">
@@ -170,7 +195,7 @@
 
 
     <!-- CONTENEDOR DE PRECIOS -->
-    <div class="container-fluid">
+    <div id="precios" class="container-fluid">
       <div class="text-center">
         <h2>Precios</h2>
         <h4>Elija la opción que mejor se adapte a su tipo de negocio</h4>
@@ -241,7 +266,7 @@
     </div>
 
     <!--CONTENEDOR DE CONTACTO-->
-    <div class="container-fluid bg-grey">
+    <div id="contacto" class="container-fluid bg-grey">
       <h2 class="text-center">CONTACTO</h2>
       <div class="row">
         <div class="col-sm-5">
@@ -272,6 +297,14 @@
 
     <!-- GOOGLE MAPS -->
     <div id="googleMap" style="height:400px;width:100%;"></div>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>Ramla Software By <a href="https://ramlasoftware.herokuapp.com/" title="Ramla Software">www.ramlasoftware.com</a></p>
+    </footer>
 
 
 
